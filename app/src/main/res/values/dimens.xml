@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="BordeMenuPrincipal">20dp</dimen>
+    <dimen name="SeparacionVerticalMenuPrincipal">10dp</dimen>
+    <dimen name="textSizeTitulo">20sp</dimen>
+    <dimen name="listRight">6dip</dimen>
+    <dimen name="txtTitulobig">16sp</dimen>
+    <dimen name="txtTitulosmall">12sp</dimen>
+    <dimen name="altura_2ndelemlista">26dip</dimen>
+</resources>

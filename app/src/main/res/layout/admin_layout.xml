@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundP">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/opciones_administraci_n"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/textSizeTitulo"
+        android:layout_marginTop="@dimen/SeparacionVerticalMenuPrincipal"/>
+
+    <EditText
+        android:id="@+id/nombreAdmin"
+        android:hint="@string/nombre"
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/BordeMenuPrincipal"
+        android:layout_marginEnd="@dimen/BordeMenuPrincipal"/>
+
+    <EditText
+        android:id="@+id/passAdmin"
+        android:hint="@string/contrasenia"
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/BordeMenuPrincipal"
+        android:layout_marginEnd="@dimen/BordeMenuPrincipal"/>
+
+    <Button
+        android:text="@string/a_adir_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/BordeMenuPrincipal"
+        android:layout_marginEnd="@dimen/BordeMenuPrincipal"
+        android:layout_marginTop="@dimen/SeparacionVerticalMenuPrincipal"
+        android:background="@drawable/esquinas_botones"
+        android:onClick="addUser"/>
+
+    <Button
+        android:text="@string/eliminar_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/BordeMenuPrincipal"
+        android:layout_marginEnd="@dimen/BordeMenuPrincipal"
+        android:layout_marginTop="@dimen/SeparacionVerticalMenuPrincipal"
+        android:background="@drawable/esquinas_botones"
+        android:onClick="deleteUser"/>
+
+    <Button
+        android:text="@string/modificar_contrasenia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/BordeMenuPrincipal"
+        android:layout_marginEnd="@dimen/BordeMenuPrincipal"
+        android:layout_marginTop="@dimen/SeparacionVerticalMenuPrincipal"
+        android:background="@drawable/esquinas_botones"
+        android:onClick="changePass"/>
+
+</LinearLayout>

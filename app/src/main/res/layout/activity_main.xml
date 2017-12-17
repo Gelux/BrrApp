@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundP"
+    tools:context="dam.sanpri.jesus.hermanosapp.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/identifiquese"
+            android:textColor="@color/colorTextBlack"
+            android:textSize="@dimen/textSizeTitulo"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/SeparacionVerticalMenuPrincipal"/>
+        <EditText
+            android:id="@+id/nombreMain"
+            android:hint="@string/nombre"
+            android:text=""
+            android:textColor="@color/colorTextBlack"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginEnd="@dimen/BordeMenuPrincipal"
+            android:layout_marginStart="@dimen/BordeMenuPrincipal"/>
+        <EditText
+            android:id="@+id/passMain"
+            android:hint="@string/contrasenia"
+            android:text=""
+            android:textColor="@color/colorTextBlack"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="@dimen/BordeMenuPrincipal"
+            android:layout_marginStart="@dimen/BordeMenuPrincipal"/>
+
+        <Button
+            android:onClick="showBros"
+            android:text="@string/mostrar_hermanos"
+            android:layout_marginStart="@dimen/BordeMenuPrincipal"
+            android:layout_marginEnd="@dimen/BordeMenuPrincipal"
+            android:background="@drawable/esquinas_botones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/statusMain"
+            android:hint="@string/estado"
+            android:text=""
+            android:textColor="@color/colorTextBlack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="@dimen/BordeMenuPrincipal"
+            android:layout_marginEnd="@dimen/BordeMenuPrincipal"/>
+
+        <Button
+            android:onClick="changeStatus"
+            android:text="@string/cambiar_estado"
+            android:background="@drawable/esquinas_botones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="@dimen/BordeMenuPrincipal"
+            android:layout_marginEnd="@dimen/BordeMenuPrincipal"/>
+    </LinearLayout>
+
+
+    <Button
+        android:onClick="admin"
+        android:text="@string/administrador"
+        android:background="@color/colorBgAdminButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/BordeMenuPrincipal"
+        android:layout_marginEnd="@dimen/BordeMenuPrincipal"
+        android:layout_marginBottom="@dimen/SeparacionVerticalMenuPrincipal"/>
+
+</RelativeLayout>

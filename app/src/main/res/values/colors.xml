@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBackgroundP">#999999</color>
+    <color name="colorTextBlack">#000000</color>
+    <color name="colorBgAdminButton">#f4e242</color>
+    <color name="colorBgLista">#595959</color>
+    <color name="colorBorder">#e6ecff</color>
+    <color name="colorLista1">#800000</color>
+    <color name="colorLista2">#ff5050</color>
+    <color name="colorBoton1">#e60000</color>
+    <color name="colorBoton2">#b30000</color>
+</resources>
